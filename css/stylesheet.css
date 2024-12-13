@@ -1,0 +1,1179 @@
+/* ----------- GENERAL ----------- */
+body{
+    margin: 0px;
+}
+
+
+
+/* ----------- HOME PAGE ----------- */
+
+#index_accent{
+    width: 100%;
+    height: 20px;
+    background-color: #829671;
+}
+
+#index_nav_highlight{
+    background-color: #829671;
+    border-radius: 0px 0px 20px 20px;
+    position: absolute;
+    width: 100px;
+    height: 70px;
+    left: 23.5%;
+    top: 20px;
+}
+
+#index_homepage{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    left: 25%;
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#index_about{
+    color: #829671;
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    left: 39%;
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#index_portfolio{
+    color: #829671;
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    left:57%;
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#index_resume{
+    color: #829671;
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    left: 75%;
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#index_page_background{
+    background-color: #EAF1E2;
+}
+
+#index_page_background img{
+    position: absolute;
+    left: 20%;
+}
+
+.index_header_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    top: 100px;
+}
+
+#middle_line{
+    width: 3px;
+    height: 1000px;
+    position: absolute;
+    left: 50%;
+    background-color: red;
+}
+
+#victoria{
+    font-family: "fields-display", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 120px;
+    color: #829671;
+    position: absolute;
+    left: 10%;
+    top: 550px;
+}
+
+#lavarier{
+    font-family: "fields-display", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 120px;
+    color: #829671;
+    position: absolute;
+    left: 52%;
+    top: 550px;
+}
+
+#professions{
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 530px;
+    left: 45%;
+}
+
+#index_contact_bar{
+    height: 40px;
+    width: 100%;
+    background-color: #abbe9b;
+    position: absolute;
+    top: 800px;
+}
+
+#index_contact_bubble{
+    height: 70px;
+    width: 20%;
+    border-radius: 35px;
+    background-color: #829671;
+    position: absolute;
+    top: 785px;
+    left: 40%;
+}
+
+
+#index_bubble{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    left: 44.5%;
+    top: 808px;
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    z-index: 3;
+    transition: 0.5s;
+}
+
+#index_bubble:hover{
+    scale: 1.1;
+}
+
+#index_introa{
+    font-family: "fields-display", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 35px;
+    color: #829671;
+    top: 1000px;
+    left: 40%;
+    position: absolute;
+}
+
+#index_introb{
+    font-family: "fields-display", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 35px;
+    color: #829671;
+    top: 1070px;
+    left: 36%;
+    position: absolute;
+    width: 30%;
+}
+
+
+#index_body{
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 25px;
+    background-color: #829671;
+    padding: 80px;
+    width: 40%;
+    text-align: center;
+    top: 1300px;
+    position: absolute;
+    border-radius: 0px 40px 40px 0px;
+    transition: 0.5s;
+}
+
+#index_body:hover{
+    transform: scale(1.1);
+}
+
+#index_footer{
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 15px;
+    left: 40%;
+    top: 1800px;
+    position: absolute;
+    padding: 50px;
+}
+
+#index_footer_back{
+    width: 100%;
+    height: 150px;
+    background-color: #829671;
+    position: absolute;
+    top: 1800px;
+}
+
+
+
+
+
+/* ----------- ABOUT PAGE ---------- */
+
+#about_page_back{
+    background-color: #ffd69a;
+}
+
+#about_accent{
+    width: 100%;
+    height: 20px;
+    background-color: #8c2d07;
+    border: 0;
+}
+
+#about_nav_highlight{
+    background-color: #8c2d07;
+    border-radius: 0px 0px 20px 20px;
+    position: absolute;
+    width: 140px;
+    height: 70px;
+    left: 38%;
+    top: 20px;
+}
+
+.about_header_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 500px;
+    top: 100px;
+    object-fit: cover;
+    border-radius: 90px;
+    position: absolute;
+    left: 14%;
+}
+
+#about_homepage{
+    color: #8c2d07;
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    left: 24.5%;
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#about_about{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    left: 39%;
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#about_portfolio{
+    color: #8c2d07;
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    left:57%;
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#about_resume{
+    color: #8c2d07;
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    left: 75%;
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#about{
+    font-family: "fields-display", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 120px;
+    color: #8c2d07;
+    position: absolute;
+    left: 30%;
+    top: 550px;
+}
+
+#me{
+    font-family: "fields-display", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 120px;
+    color: #8c2d07;
+    position: absolute;
+    left: 56%;
+    top: 550px;
+}
+
+#about_in_bar{
+    height: 20px;
+    width: 100%;
+    background-color: #be6f4f;
+    position: absolute;
+    top: 800px;
+}
+
+#about_in_bubble{
+    height: 50px;
+    width: 20%;
+    border-radius: 35px;
+    background-color: #8c2d07;
+    position: absolute;
+    top: 785px;
+    left: 40%;
+}
+
+#about_in{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    left: 44.5%;
+    top: 777px;
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    z-index: 3;
+}
+
+.about_bodya{
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 25px;
+    background-color: #8c2d07;
+    padding: 80px;
+    width: 40%;
+    text-align: center;
+    top: 1000px;
+    position: absolute;
+    border-radius: 0px 40px 40px 0px;
+    transition: 0.5s;
+}
+
+.about_bodya:hover{
+    transform: scale(1.1);
+}
+
+.about_bodyb{
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 25px;
+    background-color: #8c2d07;
+    padding: 80px;
+    width: 40%;
+    text-align: center;
+    top: 1400px;
+    left: 49.45%;
+    position: absolute;
+    border-radius: 40px 0px 0px 40px;
+    transition: 0.5s;
+}
+
+.about_bodyb:hover{
+    transform: scale(1.1);
+}
+
+.about_bodyc{
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 25px;
+    background-color: #8c2d07;
+    padding: 80px;
+    width: 40%;
+    text-align: center;
+    top: 1800px;
+    position: absolute;
+    border-radius: 0px 40px 40px 0px;
+    transition: 0.5s;
+}
+
+.about_bodyc:hover{
+    transform: scale(1.1);
+}
+
+#about_out_bar{
+    height: 20px;
+    width: 100%;
+    background-color: #be6f4f;
+    position: absolute;
+    top: 2300px;
+}
+
+#about_out_bubble{
+    height: 50px;
+    width: 20%;
+    border-radius: 35px;
+    background-color: #8c2d07;
+    position: absolute;
+    top: 2288px;
+    left: 40%;
+}
+
+#about_out{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    left: 44.5%;
+    top: 2280px;
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    z-index: 3;
+}
+
+.about_bodyd{
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 25px;
+    background-color: #8c2d07;
+    padding: 80px;
+    width: 40%;
+    text-align: center;
+    top: 2400px;
+    position: absolute;
+    border-radius: 0px 40px 40px 0px;
+    transition: 0.5s;
+}
+
+.about_bodyd:hover{
+    transform: scale(1.1);
+}
+
+.about_bodye{
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 25px;
+    background-color: #8c2d07;
+    padding: 80px;
+    width: 40%;
+    text-align: center;
+    top: 2800px;
+    left: 49.45%;
+    position: absolute;
+    border-radius: 40px 0px 0px 40px;
+    transition: 0.5s;
+}
+
+.about_bodye:hover{
+    transform: scale(1.1);
+}
+
+#about_footer{
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 15px;
+    left: 40%;
+    top: 3400px;
+    position: absolute;
+    padding: 50px;
+}
+
+#about_footer_back{
+    width: 100%;
+    height: 150px;
+    background-color: #8c2d07;
+    position: absolute;
+    top: 3400px;
+}
+
+
+
+
+
+
+/* --------- PORTFOLIO PAGE -------- */
+#port_page_back{
+    background-color: #fdf1d9;
+}
+
+#port_accent{
+    width: 100%;
+    height: 20px;
+    background-color: #75666b;
+    border: 0;
+}
+
+#port_nav_highlight{
+    background-color: #75666b;
+    border-radius: 0px 0px 20px 20px;
+    position: absolute;
+    width: 140px;
+    height: 70px;
+    left: 55.5%;
+    top: 20px;
+}
+
+#port_header_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 500px;
+    top: 100px;
+    object-fit: cover;
+    border-radius: 90px;
+    position: absolute;
+    left: 14%;
+}
+
+#port_homepage{
+    color: #75666b;
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    left: 24.5%;
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#port_about{
+    color: #75666b;
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    left: 39%;
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#port_portfolio{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    left:57%;
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#port_resume{
+    color: #75666b;
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    left: 75%;
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#design_bar{
+    height: 40px;
+    width: 100%;
+    background-color: #ab9ca1;
+    position: absolute;
+    top: 800px;
+}
+
+#design_bubble{
+    height: 70px;
+    width: 15%;
+    border-radius: 0px 35px 35px 0px;
+    background-color: #75666b;
+    position: absolute;
+    top: 785px;
+}
+
+#portfolio{
+    font-family: "fields-display", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 120px;
+    color: #75666b;
+    position: absolute;
+    left: 30%;
+    top: 550px;
+}
+
+#design_label{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    left: 5%;
+    top: 787px;
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    z-index: 3;
+}
+
+.design_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    grid-auto-rows: 500px;
+    margin-left: 100px;
+    margin-right: 100px;
+    top: 900px;
+    left: 4%;
+    position: absolute;
+}
+
+.design_grid img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.design_grid img:hover{
+    transform: scale(110%);
+}
+
+#aaron_deets{
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    color: #75666b;
+}
+
+#keith_deets{
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    color: #75666b;
+}
+
+#chicken_deets{
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    color: #75666b;
+}
+
+#lady_deets{
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    color: #75666b;
+    grid-row: 2;
+}
+
+#curtain_deets{
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    color: #75666b;
+    grid-row: 2;
+}
+
+#hand_deets{
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    color: #75666b;
+    grid-row: 2;
+}
+
+#remnants_deets{
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    color: #75666b;
+    grid-row: 2;
+}
+
+#face_deets{
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    color: #75666b;
+}
+
+#pi_deets{
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    color: #75666b;
+}
+
+#snoball_deets{
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    color: #75666b;
+}
+
+#installs_bar{
+    height: 40px;
+    width: 100%;
+    background-color: #ab9ca1;
+    position: absolute;
+    top: 1517px;
+}
+
+#installs_bubble{
+    height: 70px;
+    width: 15%;
+    border-radius: 0px 35px 35px 0px;
+    background-color: #75666b;
+    position: absolute;
+    top: 1500px;
+}
+
+#installs_label{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    left: 3%;
+    top: 1505px;
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    z-index: 3;
+}
+
+.installs_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    grid-auto-rows: 500px;
+    margin-left: 100px;
+    margin-right: 100px;
+    top: 1600px;
+    left: 4%;
+    position: absolute;
+}
+
+.installs_grid img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.installs_grid img:hover{
+    transform: scale(110%);
+}
+
+#paint_bar{
+    height: 40px;
+    width: 100%;
+    background-color: #ab9ca1;
+    position: absolute;
+    top: 2200px;
+}
+
+#paint_bubble{
+    height: 70px;
+    width: 15%;
+    border-radius: 0px 35px 35px 0px;
+    background-color: #75666b;
+    position: absolute;
+    top: 2185px;
+}
+
+#paint_label{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    left: 4%;
+    top: 2185px;
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    z-index: 3;
+}
+
+.paint_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    grid-auto-rows: 500px;
+    margin-left: 100px;
+    margin-right: 100px;
+    top: 2300px;
+    left: 4%;
+    position: absolute;
+}
+
+.paint_grid img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.paint_grid img:hover{
+    transform: scale(110%);
+}
+
+/* #sculpture_label{
+    position: absolute;
+} */
+
+#sculpture_bar{
+    height: 40px;
+    width: 100%;
+    background-color: #ab9ca1;
+    position: absolute;
+    top: 2900px;
+}
+
+#sculpture_bubble{
+    height: 70px;
+    width: 15%;
+    border-radius: 0px 35px 35px 0px;
+    background-color: #75666b;
+    position: absolute;
+    top: 2887px;
+}
+
+#sculpture_label{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    left: 5%;
+    top: 2887px;
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    z-index: 3;
+}
+
+.sculpture_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    grid-template-rows: 500px, 300px;
+    margin-left: 100px;
+    margin-right: 100px;
+    top: 3000px;
+    left: 4%;
+    position: absolute;
+}
+
+.sculpture_grid img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.sculpture_grid img:hover{
+    transform: scale(110%);
+}
+
+#port_footer{
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 15px;
+    left: 40%;
+    top: 3700px;
+    position: absolute;
+    padding: 50px;
+}
+
+#port_footer_back{
+    width: 100%;
+    height: 150px;
+    background-color: #75666b;
+    position: absolute;
+    top: 3700px;
+}
+
+
+
+
+
+
+/* -------- RESUME & CONTACT ------- */
+#resume_body_back{
+    background-color: #eaf1e2;
+}
+
+#resume_accent{
+    width: 100%;
+    height: 20px;
+    background-color: #8e0413;
+    border: 0;
+}
+
+#resume_nav_highlight{
+    background-color: #8e0413;
+    border-radius: 0px 0px 20px 20px;
+    position: absolute;
+    width: 140px;
+    height: 70px;
+    left: 73%;
+    top: 20px;
+}
+
+#resume_header_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 500px;
+    top: 100px;
+    object-fit: cover;
+    border-radius: 90px;
+    position: absolute;
+    left: 14%;
+}
+
+#resume_contact{
+    font-family: "fields-display", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 120px;
+    color: #8e0413;
+    position: absolute;
+    left: 15%;
+    top: 550px;
+}
+
+#resume_homepage{
+    color: #8e0413;
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    left: 24.5%;
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#resume_about{
+    color: #8e0413;
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    left: 39%;
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#resume_portfolio{
+    color: #8e0413;
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    left:57%;
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#resume_resume{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    left: 75%;
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#resume_download{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    left: 40%;
+    top: 812px;
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    z-index: 3;
+    transition: 0.5s;
+}
+
+#resume_download:hover{
+    scale: 1.1;
+}
+
+#resume_bar{
+    height: 40px;
+    width: 100%;
+    background-color: #b76972;
+    position: absolute;
+    top: 800px;
+}
+
+#resume_bubble{
+    height: 70px;
+    width: 25%;
+    border-radius: 35px;
+    background-color: #8e0413;
+    position: absolute;
+    top: 788px;
+    left: 38%;
+}
+
+#resume_insta{
+    width: 100px;
+    /* height: 100px; */
+    top: 1000px;
+    left: 30%;
+    position: absolute;
+}
+
+#insta_handle{
+    font-family: "fields-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #90333D;
+    top: 985px;
+    left: 40%;
+    font-size: 50px;
+    position: absolute;
+    transition: 0.5s;
+}
+
+#insta_handle:hover{
+    scale: 1.1;
+}
+
+#resume_email{
+    width: 100px;
+    /* height: 100px; */
+    top: 1120px;
+    left: 30%;
+    position: absolute;
+}
+
+#email_handle{
+    font-family: "fields-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #90333D;
+    top: 1105px;
+    left: 40%;
+    font-size: 50px;
+    position: absolute;
+    transition: 0.5s;
+}
+
+#email_handle:hover{
+    scale: 1.1;
+}
+
+#resume_linked{
+    width: 100px;
+    /* height: 100px; */
+    top: 1240px;
+    left: 30%;
+    position: absolute;
+}
+
+#linked_handle{
+    font-family: "fields-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #90333D;
+    top: 1220px;
+    left: 40%;
+    font-size: 50px;
+    position: absolute;
+    transition: 0.5s;
+}
+
+#linked_handle:hover{
+    scale: 1.1;
+}
+
+#resume_dis{
+    width: 100px;
+    /* height: 100px; */
+    top: 1380px;
+    left: 30%;
+    position: absolute;
+}
+
+#dis_handle{
+    font-family: "fields-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #90333D;
+    top: 1345px;
+    left: 40%;
+    font-size: 50px;
+    position: absolute;
+    transition: 0.5s;
+}
+
+#dis_handle:hover{
+    scale: 1.1;
+}
+
+#resume_footer{
+    font-family: "jaf-cupidus", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 15px;
+    left: 40%;
+    top: 1700px;
+    position: absolute;
+    padding: 50px;
+}
+
+#resume_footer_back{
+    width: 100%;
+    height: 150px;
+    background-color: #90333D;
+    position: absolute;
+    top: 1700px;
+}
